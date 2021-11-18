@@ -1,0 +1,22 @@
+{
+ 
+  "connectionString": [
+    {
+
+      "dbType": "System.Data.SqlClient",
+      "name": "MainData.Reader",
+      "value": "Min Pool Size=10;Max Pool Size=500;Connection Timeout=50;Data Source=.;Initial Catalog=tippy.tenant;Persist Security Info=True;User ID=sa;Password=123; pooling=false"
+    },
+    {
+
+      "dbType": "System.Data.SqlClient",
+      "name": "MainData.Writer",
+      "value": "Min Pool Size=10;Max Pool Size=500;Connection Timeout=50;Data Source=.;Initial Catalog=tippy.tenant;Persist Security Info=True;User ID=sa;Password=123; pooling=false"
+    }
+
+  ],
+
+  "AppSettings": {
+    "jwt": " {    \"Key\": \"1G3l0yYGbOINId3A*ioEi4iyxR7$SPzm\",    \"Issuer\": \"https://localhost:5014\",    \"Audience\": \"https://localhost:5012\",    \"ExpiryInHours\": 8  }"
+  }
+}

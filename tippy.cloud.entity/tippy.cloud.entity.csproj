@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bitter.Base.NetCore" Version="3.7.1.11" />
+    <PackageReference Include="Bitter.Core.NetCore" Version="2.2.8.5" />
+  </ItemGroup>
+
+</Project>

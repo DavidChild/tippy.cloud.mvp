@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bitter.Base.NetCore" Version="3.7.1.11" />
+    <PackageReference Include="Bitter.Core.NetCore" Version="2.2.8.5" />
+    <PackageReference Include="Bitter.ServiceBase.NetCore" Version="1.7.12.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tippy.cloud.entity\tippy.cloud.entity.csproj" />
+    <ProjectReference Include="..\tippy.cloud.Shared\tippy.cloud.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

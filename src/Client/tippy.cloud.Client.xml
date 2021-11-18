@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tippy.cloud.Client</name>
+    </assembly>
+    <members>
+        <member name="F:tippy.cloud.Client.LocalStorage._localStorage">
+            <summary>
+            操作LocalStorage帮助类
+            </summary>
+        </member>
+        <member name="M:tippy.cloud.Client.LocalStorage.SetLocalStorage``1(System.String,``0)">
+            <summary>
+            设置LocalStorage
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tippy.cloud.Client.LocalStorage.GetLocalStorage``1(System.String)">
+            <summary>
+            获取LocalStorage
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tippy.cloud.Client.MyHttp.Post``2(System.String,``0,System.Action{Bitter.Base.Result{``1}})">
+            <summary>
+            POST 请求
+            </summary>
+            <typeparam name="T">请求入参类型</typeparam>
+            <typeparam name="Tout">请求出参类型</typeparam>
+            <param name="uri">请求URI</param>
+            <param name="value">请求入参实例</param>
+            <param name="callback">回调函数</param>
+        </member>
+        <member name="M:tippy.cloud.Client.MyHttp.Get``1(System.String,System.Object,System.Action{Bitter.Base.Result{``0}})">
+            <summary>
+            GET 请求
+            </summary>
+            <typeparam name="Tout">输出类型</typeparam>
+            <param name="uri">请求URI</param>
+            <param name="dyParames">参数</param>
+            <param name="callback">回调函数</param>
+        </member>
+    </members>
+</doc>

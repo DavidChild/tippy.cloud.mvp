@@ -1,0 +1,50 @@
+﻿@namespace tippy.cloud
+@using OneOf
+@inherits LayoutComponentBase
+
+<div class="container__b__0">
+    <div class="lang">
+        <!--todo: selectLang-->
+    </div>
+    <div class="content">
+        <div class="top">
+            <div class="header">
+                <a>
+                    <img alt="logo" class="logo" src="assets/logo.svg" />
+                    <span class="title">Nervos Tippy</span>
+                </a>
+            </div>
+            <div class="desc">The Paltform For Nervos Developer </div>
+        </div>
+        @Body
+    </div>
+    <FooterView Copyright="2021 Right by Nervos Cryptape" Links="Links"></FooterView>
+</div>
+
+@code
+{
+    public LinkItem[] Links { get; set; } =
+    {
+        new LinkItem
+        {
+            Key = "Nervos Test NetWork",
+            Title = "Nervos Test NetWork",
+            Href = "https://explorer.nervos.org/",
+            BlankTarget = true,
+        },
+        new LinkItem
+        {
+            Key = "Github",
+            Title = (RenderFragment)(@<Icon Type="github" />),
+            Href = "https://github.com/nervosnetwork",
+            BlankTarget = true,
+        },
+        new LinkItem
+        {
+            Key = "Tippy",
+            Title = "Tippy",
+            Href = "https://github.com/nervosnetwork/tippy",
+            BlankTarget = true,
+        }
+    };
+}

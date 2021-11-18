@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>F:\giteeproject\tippy.cloud\src\Client\tippy.cloud.Client.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientFrame\LocalStorage.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AntDesign.Charts" Version="0.2.1" />
+    <PackageReference Include="AntDesign.ProLayout" Version="0.1.0" />
+    <PackageReference Include="Bitter.Base.NetCore" Version="3.7.1.11" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientFrame\Frame\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\tippy.cloud.Shared\tippy.cloud.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

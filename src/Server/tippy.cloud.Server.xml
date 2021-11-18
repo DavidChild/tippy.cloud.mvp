@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tippy.cloud.Server</name>
+    </assembly>
+    <members>
+        <member name="M:tippy.cloud.Server.TippyAuth.CheckAuthorization(System.String,Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            token 登入鉴权
+            </summary>
+            <param name="accessToken"></param>
+            <param name="actionContext"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tippy.cloud.Server.Startup.GetClassName(System.String)">
+            <summary>  
+            获取程序集中的实现类对应的多个接口
+            </summary>  
+            <param name="assemblyName">程序集</param>
+        </member>
+    </members>
+</doc>
