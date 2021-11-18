@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\tippy.cloud.Shared\tippy.cloud.Shared.csproj" />
+    <ProjectReference Include="..\tippy.cloud.Shared\tippy.cloud.Shared.csproj" />
   </ItemGroup>
 
 </Project>

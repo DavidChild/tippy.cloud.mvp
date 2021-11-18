@@ -33,12 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Client\tippy.cloud.Client.csproj">
-      <Private>true</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\src\Server\tippy.cloud.Server.csproj">
-      <Private>true</Private>
-    </ProjectReference>
+    <ProjectReference Include="..\Client\tippy.cloud.Client.csproj" />
+    <ProjectReference Include="..\Server\tippy.cloud.Server.csproj" />
   </ItemGroup>
 
 </Project>

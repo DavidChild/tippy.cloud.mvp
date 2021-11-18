@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\tippy.cloud.server.logic\tippy.cloud.server.logic.csproj" />
-    <ProjectReference Include="..\Client\tippy.cloud.Client.csproj" />
+    <ProjectReference Include="..\tippy.cloud.entity\tippy.cloud.entity.csproj" />
+    <ProjectReference Include="..\tippy.cloud.server.logic\tippy.cloud.server.logic.csproj" />
   </ItemGroup>
 
 
